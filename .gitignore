@@ -23,7 +23,7 @@ terraform/terraform.tfvars
 # VS Code
 .vscode/
 
-# OS
+# OSF
 .DS_Store
 Thumbs.db
 
