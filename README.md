@@ -16,6 +16,36 @@ A developer pushes code to GitHub. GitHub Actions picks that up, SSHs into the E
 
 ![Architecture Diagram](docs/architecture.png)
 
+## 📸 Screenshots
+
+## EC2 Instance
+
+![EC2](screenshots/ec2-instance.png)
+
+## Docker Container
+
+![Docker](screenshots/docker-running.png)
+
+## Live Application
+
+![Live Application](screenshots/live-application.png)
+
+## Health Endpoint
+
+![Health](screenshots/health-endpoint.png)
+
+## Info Endpoint
+
+![Info](screenshots/info-endpoint.png)
+
+## IAM Role
+
+![IAM](screenshots/iam-role.png)
+
+## GitHub Actions CI/CD
+
+![GitHub Actions](screenshots/github-actions-success.png)
+
 The flow is straightforward:
 
 1. I write code and push to GitHub
