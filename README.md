@@ -22,6 +22,10 @@ A developer pushes code to GitHub. GitHub Actions picks that up, SSHs into the E
 
 ![EC2](screenshots/ec2-instance.png)
 
+## Terraform Outputs
+
+![Terraform Outputs](screenshots/terraform-apply.png)
+
 ## Docker Container
 
 ![Docker](screenshots/docker-running.png)
