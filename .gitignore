@@ -1,16 +1,24 @@
 # Python
 app/venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 
 # Terraform
 terraform/.terraform/
 terraform/*.tfstate
 terraform/*.tfstate.*
 terraform/crash.log
+terraform/terraform.tfvars
+*.tfvars.backup
 
 # Environment
 .env
+.env.*
+
+# SSH Keys
+*.pem
 
 # VS Code
 .vscode/
@@ -18,3 +26,6 @@ terraform/crash.log
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
