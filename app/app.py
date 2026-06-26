@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>🚀 AWS Flask Terraform CI/CD Working</h1>
+    <h1>AWS Flask Terraform CI/CD Working</h1>
     <p>Successfully deployed on AWS EC2.</p>
     <p>Cloud Engineer Assessment - Siddhan Intelligence</p>
     """
