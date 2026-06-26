@@ -24,7 +24,7 @@ The flow is straightforward:
 4. Docker builds a fresh image from the Dockerfile
 5. The old container is stopped and replaced with the new one
 6. Flask app runs inside Docker on port 5000, exposed on port 80
-7. Users can access the app at `<http://13.232.84.215>`
+7. Users can access the app at `http://13.232.84.215`
 
 The EC2 instance sits inside a VPC in a public subnet. A Security Group allows HTTP (port 80) and SSH (port 22) traffic. An IAM Role is attached to the instance with CloudWatch permissions so it can push logs and metrics.
 
